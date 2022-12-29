@@ -12,6 +12,9 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        String word = "hello";
+        String word1 = "polly";
+        return text;
     }
+   
 }
