@@ -15,10 +15,9 @@ public class Comparators {
      */
     public boolean isEqual(int a, int b){
         int c = 50;
-        int d = 30;
+        int d = 50;
 
-        isEqual(c,d);
-        return false;
+        boolean d = c.isEqual(d);
         
     }
 
@@ -28,10 +27,10 @@ public class Comparators {
      * @return true if a is greater than b, false otherwise.
      */
     public boolean greaterThan(int a, int b){
-     int one = 50;
+     int one = 30;
      int two = 30;
       greaterThan(one, two);
-        return true;
+        return false;
     }
     /**
      * @param a the first number to be compared.
