@@ -14,8 +14,12 @@ public class Comparators {
      * @return true if a is equal to b, false otherwise.
      */
     public boolean isEqual(int a, int b){
-        
+        int c = 50;
+        int d = 30;
+
+        isEqual(c,d);
         return false;
+        
     }
 
     /**
@@ -24,8 +28,10 @@ public class Comparators {
      * @return true if a is greater than b, false otherwise.
      */
     public boolean greaterThan(int a, int b){
-    
-        return false;
+     int one = 50;
+     int two = 30;
+      greaterThan(one, two);
+        return true;
     }
     /**
      * @param a the first number to be compared.
@@ -33,6 +39,9 @@ public class Comparators {
      * @return true if a is less than b, false otherwise.
      */
     public boolean lessThan(int a, int b){
+        int one = 50;
+        int two = 30;
+        lessThan(one,two);
         return false;
     }
     /**
@@ -41,15 +50,25 @@ public class Comparators {
      * @return true if a is greater than or equal to b, false otherwise.
      */
     public boolean greaterThanOrEqualTo(int a, int b){
-        return false;
+        int one = 50;
+        int two = 30;
+       if (one>=two){}
     }
+        
+
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
      * @return true if a is less than or equal to b, false otherwise.
      */
     public boolean lessThanOrEqualTo(int a, int b){
-        return false;
+        int one = 50;
+        int two = 30;
+        if (one<=two){
+            return false;
+        }else if (two<=one){
+            return true;
+        }
     }
 
     /**
@@ -58,6 +77,15 @@ public class Comparators {
      * @return true if a is not equal to b, false otherwise.
      */
     public boolean notEqualTo(int a, int b){
-        return false;
+
+        int one = 50;
+        int two = 30;
+        if (one != two){
+            return true;
+        }else if (one == two){
+            return false;
+        }
+        
+
     }
 }
