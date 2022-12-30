@@ -50,9 +50,10 @@ public class Comparators {
      * @return true if a is greater than or equal to b, false otherwise.
      */
     public boolean greaterThanOrEqualTo(int a, int b){
-        int one = 50;
-        int two = 30;
-       if (one>=two){}
+     int one = 50;
+     int two = 30;
+     greaterThanOrEqualTo(one, two);
+     return true;
     }
         
 
@@ -64,11 +65,8 @@ public class Comparators {
     public boolean lessThanOrEqualTo(int a, int b){
         int one = 50;
         int two = 30;
-        if (one<=two){
-            return false;
-        }else if (two<=one){
-            return true;
-        }
+        lessThanOrEqualTo(one, two);
+        return false;
     }
 
     /**
@@ -80,11 +78,8 @@ public class Comparators {
 
         int one = 50;
         int two = 30;
-        if (one != two){
-            return true;
-        }else if (one == two){
-            return false;
-        }
+        notEqualTo(one, two);
+        return true;
         
 
     }
