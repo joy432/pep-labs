@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 10
+  :count_tests_passed: 11
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 10
+  :count_tests_passed: 11
   Start:
     :Week: 1
     :Order: 1
@@ -77,10 +77,10 @@
     :Order: 4
     :Type: lab
     :count_tests: 16
-    :count_tests_passed: 10
+    :count_tests_passed: 11
     :tests:
-      isEqualTest1: 1
-      isEqualTest2: 0
+      isEqualTest1: 0
+      isEqualTest2: 1
       greaterThanTest1: 0
       greaterThanTest2: 1
       greaterThanTest3: 1
@@ -93,8 +93,9 @@
       lessThanOrEqualToTest1: 1
       lessThanOrEqualToTest2: 1
       lessThanOrEqualToTest3: 0
-      notEqualToTest1: 0
+      notEqualToTest1: 1
       notEqualToTest2: 1
+      ComparatorsTest: 0
   CombineStrings:
     :Week: 1
     :Order: 5
