@@ -43,6 +43,7 @@ public class ArrayBasics {
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
         
+        arr [n] = val;
             
 
     }
