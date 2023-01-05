@@ -30,7 +30,7 @@ public class ArrayBasics {
      */
     public int getNthElementOfArray(int[] arr, int n){
 
-        return 8;
+        return arr[n];
     }
 
     /**
