@@ -8,6 +8,8 @@ import java.util.Set;
  *
  * You can read about HashSet, a common and very efficient implementation of Set, here:
  * https://www.w3schools.com/java/java_hashset.asp
+ * 
+ * 
  */
 public class SetExercise {
     /**
@@ -20,7 +22,7 @@ public class SetExercise {
      * @return a new Set<Integer> object.
      */
     public Set<Integer> createSet(){
-        return null;
+        return HashSet<Integer> (); 
     }
 
     /**
@@ -29,7 +31,7 @@ public class SetExercise {
      * @return the size of set. (number of values)
      */
     public int getSize(Set<Integer> set){
-        return 0;
+        return set.size();
     }
 
     /**
@@ -39,6 +41,7 @@ public class SetExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addUniqueItem(Set<Integer> set, int item){
+        set.add(item);
 
     }
 
@@ -49,6 +52,7 @@ public class SetExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeItem(Set<Integer> set, int item){
+        set.remove(item);
 
     }
 }
