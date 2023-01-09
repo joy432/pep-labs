@@ -1,5 +1,6 @@
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 /**
  * Sets are unordered collections of elements. Sets do not allow duplicates.
@@ -22,7 +23,7 @@ public class SetExercise {
      * @return a new Set<Integer> object.
      */
     public Set<Integer> createSet(){
-        return new HashSet<Integer> (); 
+        return new LinkedHashSet<Integer>(); 
     }
 
     /**
