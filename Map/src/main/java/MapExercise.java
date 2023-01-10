@@ -27,7 +27,7 @@ public class MapExercise {
      * so here Integer is a wrapper for int.
      */
     public Map<Integer, String> createMap(){
-
+         
         Map<Integer, String> map = new HashMap<>();
         return map;
     }
@@ -39,6 +39,7 @@ public class MapExercise {
      */
     public int getSize(Map<Integer,String> map){
 //        return total number of key/value pairs in the map
+        
         return map.size();
     }
 
@@ -51,7 +52,7 @@ public class MapExercise {
      */
     public void addKeyValuePair(Map<Integer,String> map, int key, String value){
 
-        map.put(key, "value");
+        map.put( key, value);
         
     }
 
@@ -84,6 +85,6 @@ public class MapExercise {
      */
     public void overwriteValue(Map<Integer, String> map, int key, String value){
 
-        map.put(key, "potato");
+        map.put(key, value);
     }
 }
