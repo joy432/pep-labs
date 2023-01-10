@@ -27,7 +27,7 @@ public class MapExercise {
      */
     public Map<Integer, String> createMap(){
 
-        Map<Integer, String> map = new Map<>();
+        Map<Integer, String> map = new HashMap<>();
         return map;
     }
 
