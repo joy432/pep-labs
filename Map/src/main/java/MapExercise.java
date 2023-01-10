@@ -1,5 +1,6 @@
 
 import java.util.Map;
+import java.util.HashMap;
 
 /**
  * Maps are key/value pairs. They are used in situations where we have some value that we'd like
@@ -50,7 +51,8 @@ public class MapExercise {
      */
     public void addKeyValuePair(Map<Integer,String> map, int key, String value){
 
-        map.put(key,value);
+        map.put(key, "value");
+        
     }
 
     /**
@@ -60,7 +62,7 @@ public class MapExercise {
      * @return the value associated with key in map.
      */
     public String getValueFromKey(Map<Integer, String> map, int key){
-        return "potato";
+        return map.get(key);
     }
 
     /**
@@ -82,6 +84,6 @@ public class MapExercise {
      */
     public void overwriteValue(Map<Integer, String> map, int key, String value){
 
-        map.put(key, value);
+        map.put(key, "potato");
     }
 }
