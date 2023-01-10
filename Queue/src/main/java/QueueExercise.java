@@ -3,6 +3,7 @@
   */
 
 
+ 
  import java.util.Deque;
  import java.util.ArrayDeque;
  
@@ -57,7 +58,7 @@ public class QueueExercise {
      */
     public void addToEndOfQueue(Deque<String> queue, String item){
         queue.add(item);
-
+        
     }
 
     /**
@@ -68,8 +69,8 @@ public class QueueExercise {
      */
     public String removeFromStartOfQueue(Deque<String> queue){
 
-        queue.remove("potato");
-        return "potato";
+        queue.remove();
+        return "";
     }
 
     /**
