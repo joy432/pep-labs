@@ -34,8 +34,7 @@ public class QueueExercise {
      */
     public Deque<String> createQueue(){
         
-        
-        return ;
+        return new ArrayDeque<>();
     }
 
     /**
