@@ -2,6 +2,7 @@
  * TODO: switch to deque
  */
 
+
 import java.util.Deque;
 
 /**
@@ -49,7 +50,7 @@ public class QueueExercise {
      * @param item a String that should be added to Queue.
      */
     public void addToEndOfQueue(Deque<String> queue, String item){
-        queue.add(item);
+        queue.addLast(item);
 
     }
 
