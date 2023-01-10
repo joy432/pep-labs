@@ -1,9 +1,7 @@
-/**
- * TODO: switch to deque
- */
+ import java.util.Deque;
+ import java.util.ArrayDeque;
+ 
 
-
-import java.util.Deque;
 
 /**
  * Queues are FIFO - first in, first out, like a checkout line. They are used in algorithms where it is needed to keep
@@ -30,8 +28,9 @@ public class QueueExercise {
      * Stack behavior.
      */
     public Deque<String> createQueue(){
-        Deque<String> q = new ArrayDeque<>();
-        return q;
+        
+        Deque<String> queue = new ArrayDeque<String>();
+        return queue;
     }
 
     /**
@@ -40,7 +39,9 @@ public class QueueExercise {
      * @return the length of queue.
      */
     public int getSize(Deque<String> queue){
+
         return queue.size();
+
     }
 
     /**
@@ -50,7 +51,7 @@ public class QueueExercise {
      * @param item a String that should be added to Queue.
      */
     public void addToEndOfQueue(Deque<String> queue, String item){
-        queue.addLast(item);
+        queue.add(item);
 
     }
 
@@ -62,8 +63,8 @@ public class QueueExercise {
      */
     public String removeFromStartOfQueue(Deque<String> queue){
 
-        queue.remove("battery");
-        return "";
+        queue.remove("potato");
+        return "potato";
     }
 
     /**
@@ -72,6 +73,6 @@ public class QueueExercise {
      * @return the next String due to be removed (peeked) from the Queue<String> (the oldest item in the queue.)
      */
     public String getStartOfQueueWithoutRemoving(Deque<String> queue){
-        return "";
+        return "potato";
     }
 }
