@@ -3,9 +3,8 @@
   */
 
 
- 
- import java.util.Deque;
- import java.util.ArrayDeque;
+  import java.util.Deque;
+  import java.util.ArrayDeque;
  
 
 
@@ -35,8 +34,8 @@ public class QueueExercise {
      */
     public Deque<String> createQueue(){
         
-        Deque<String> queue = new ArrayDeque<String>();
-        return queue;
+        
+        return ;
     }
 
     /**
