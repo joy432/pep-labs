@@ -8,7 +8,23 @@ public class CustomExceptionThrower {
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
-    public void throwCustomException(){
+    public void throwCustomException( )throws CustomException {
+
+        String animal = "elephant";
+
+        if (animal!="elephant"){
+
+            throw new CustomException();
+            try{
+            System.out.println (animal= "panda");
+            } catch (CustomException){
+                System.out.println ("animal must be elephant!");
+            }
+        }else {
+            System.out.println(animal);
+        }
+
+        
 
     }
 
