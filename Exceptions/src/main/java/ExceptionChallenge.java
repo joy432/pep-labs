@@ -21,11 +21,9 @@ public class ExceptionChallenge {
     }
     public static void main (String[]args){
 
-        try
-    {
+        try{
         mustThrow();
-    }
-        catch Exception;
-    }
-
+       } catch (Exception a){
+        }
+  }
 }
