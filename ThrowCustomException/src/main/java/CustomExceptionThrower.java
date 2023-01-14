@@ -1,6 +1,6 @@
 
 public class CustomExceptionThrower {
-   String animal="elephant";
+    String animal;
     /**
      * This method should throw a CustomException. CustomException is a custom exception that we've written ourselves
      * by extending the Exception class in CustomException.java. In a large scale application, writing custom
@@ -10,19 +10,17 @@ public class CustomExceptionThrower {
      */
     public void throwCustomException( ) throws CustomException{
          
+        if (animal!="elephant"){   
             
-        if (animal!="elephant"){
-            try{
-            System.out.println (animal ="panda");
-            throw new CustomException();
-
-            } catch (CustomException a){
-            }
+            throw new CustomException();             
+            
         }else {
             System.out.println(animal);
         }
-    } 
-    
     }
+}
+
+    
+    
 
 
