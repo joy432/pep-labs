@@ -21,8 +21,8 @@ public class StackExercise {
      * @return a newly instantiated Deque. Deques implement both stack and queue behavior.
      */
     public Deque<String> createNewStack(){
-        Deque<String> q = new ArrayDeque<String>();
-        return q;
+         
+        return new ArrayDeque<String>();
     }
 
     /**
@@ -40,7 +40,7 @@ public class StackExercise {
      */
     public void addToTopOfStack(Deque<String> stack, String item){
 
-        stack.add(item);
+        stack.push(item);
     }
 
     /**
@@ -50,9 +50,8 @@ public class StackExercise {
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-
-        stack.remove("flowers");
-        return "flowers";
+        
+        return stack.pop();
 
     }
     /**
@@ -61,6 +60,7 @@ public class StackExercise {
      * @return the value peeked from the top of the deque.
      */
     public String getTopOfStackWithoutRemoving(Deque<String> stack){
-        return "";
+
+        return stack.peek();
     }
 }
