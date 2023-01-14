@@ -33,7 +33,7 @@ public class QueueExercise {
      * Stack behavior.
      */
     public Deque<String> createQueue(){
-        
+       
         return new ArrayDeque<>();
     }
 
@@ -55,7 +55,10 @@ public class QueueExercise {
      * @param item a String that should be added to Queue.
      */
     public void addToEndOfQueue(Deque<String> queue, String item){
-        queue.add(item);
+
+       queue.add(item);
+       
+      
         
     }
 
@@ -66,9 +69,8 @@ public class QueueExercise {
      * @return the next String due to be removed (polled) from the Queue<String> (the oldest item in the queue.)
      */
     public String removeFromStartOfQueue(Deque<String> queue){
-
-        queue.remove();
-        return "";
+        
+        return queue.remove();
     }
 
     /**
@@ -77,6 +79,8 @@ public class QueueExercise {
      * @return the next String due to be removed (peeked) from the Queue<String> (the oldest item in the queue.)
      */
     public String getStartOfQueueWithoutRemoving(Deque<String> queue){
-        return "potato";
+
+        
+        return "";
     }
 }
