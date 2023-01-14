@@ -1,11 +1,11 @@
- /**
-  * TODO: switch to Deque
-  */
+/**
+ * TODO: Change all to deque
+ */
 
 
   import java.util.Deque;
-  import java.util.ArrayDeque;
- 
+  import java.util.ArrayDeque; 
+
 
 
 /**
@@ -70,7 +70,7 @@ public class QueueExercise {
      */
     public String removeFromStartOfQueue(Deque<String> queue){
         
-        return queue.remove();
+        return queue.poll();
     }
 
     /**
@@ -78,9 +78,10 @@ public class QueueExercise {
      * @param queue a Queue<String> object.
      * @return the next String due to be removed (peeked) from the Queue<String> (the oldest item in the queue.)
      */
-    public String getStartOfQueueWithoutRemoving(Deque<String> queue){
-
+   
+     public String getStartOfQueueWithoutRemoving(Deque<String> queue){
         
-        return "";
+        
+        return queue.peek();
     }
 }
