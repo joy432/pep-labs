@@ -23,5 +23,6 @@ public class Runner {
      */
     public void changeClassVar(String in){
 
+         static String in =;
     }
 }
