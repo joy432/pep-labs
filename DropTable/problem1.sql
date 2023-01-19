@@ -1,1 +1,1 @@
-drop table song 
+drop table song ;
