@@ -1,1 +1,1 @@
-create table song (id , title varchar(100), artist varchar(100));
+create table song (id int primary key, title varchar(100), artist varchar(100));
