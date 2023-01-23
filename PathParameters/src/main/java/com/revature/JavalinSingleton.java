@@ -14,10 +14,10 @@ public class JavalinSingleton {
          * 
          * Note: Please refer to the "PathParameters.MD" file for more assistance if needed.
          */
-        app.get( "/firstname /{first}", ctx -> {
+        app.get( "/Kevin", ctx -> {
             
             //write code here
-            
+             
               ctx.result("Kevin");
 
         });
