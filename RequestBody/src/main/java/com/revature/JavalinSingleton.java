@@ -16,9 +16,16 @@ public class JavalinSingleton {
          * 
          * Note: Please refer to the "RequestBody.MD" file for more assistance if needed.
          */
-        app.post("/song", ctx -> {
+        app.post("/problem1", ctx -> {
                 //implement logic here
-                 ctx.body();
+
+                String jsonString = ctx.body("artistName");
+
+                ObjectMapper om = new ObjectMapper();
+
+                 Song song = om.readValue(jsonString(), Song.class);
+
+                 
 
                
               
