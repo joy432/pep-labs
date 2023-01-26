@@ -19,9 +19,10 @@ public class JavalinSingleton {
         app.post("/problem1", ctx -> {
                 //implement logic here
 
-                String jsonString = ctx.body("artistName");
+                
 
                 ObjectMapper om = new ObjectMapper();
+                String jsonString = ctx.body("artistName");
 
                  Song song = om.readValue(jsonString(), Song.class);
 
