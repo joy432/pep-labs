@@ -26,8 +26,7 @@ public class JavalinSingleton {
                 ObjectMapper om = new ObjectMapper();
 
                  Song song = om.readValue(jsonString, Song.class);
-                 ctx.contentType("application/json");
-                                 
+                 ctx.contentType("application/json");r                               
                       
                  ctx.result(song.getArtistName());
                   
