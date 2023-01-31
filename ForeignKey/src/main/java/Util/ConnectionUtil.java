@@ -28,10 +28,10 @@ public class ConnectionUtil {
                 e.printStackTrace();
             }
            
-         return connection= DriverManager.getConnection("jdbc:h2:./h2/db", "sa", "sa");
+    }
+    return connection= DriverManager.getConnection("jdbc:h2:./h2/db", "sa", "sa");
+}
 
-
-        
     }
 
 
