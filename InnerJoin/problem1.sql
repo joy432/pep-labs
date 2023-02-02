@@ -1,0 +1,1 @@
+select student.id, student.student_name from student inner join class on class.teacher_title = student.student_title where class.teacher_name ='Ms.Lovelace';
