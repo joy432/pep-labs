@@ -30,15 +30,15 @@ public class ReturnArrayContents {
     public String arrayToString(int[] nums){
        
         String str = " ";             
-
-        for (int i=1;i<= nums.length;i++){
+        for (int i= 1  ;i<= nums.length;i++){
+           
              str = str + i + " " ;              
              
          }
          return str;
+         
         
-        int nums1 []= {9,8,7};
-        System.out.println(nums1);
+        
         }
     
     
