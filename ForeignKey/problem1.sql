@@ -1,5 +1,2 @@
 
-CREATE TABLE post (id SERIAL PRIMARY KEY, 
-post VARCHAR(255), 
-user_fk int REFERENCES site_user(id)
-);
+create table post (id serial primary key, post varchar (255), user_fk int references site_user (id));
