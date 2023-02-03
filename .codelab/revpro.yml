@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: joy432-pepgitpodworkspa-3e5wjbdbrrx
-    :workspace_url: https://joy432-pepgitpodworkspa-3e5wjbdbrrx.ws-us84.gitpod.io
+    :workspace_id: joy432-pepgitpodworkspa-823e2q1vayt
+    :workspace_url: https://joy432-pepgitpodworkspa-823e2q1vayt.ws-us85.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: brooklily1sta@yahoo.com
     :git_user_name: joy432
