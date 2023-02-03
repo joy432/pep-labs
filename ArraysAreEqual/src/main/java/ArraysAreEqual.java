@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 //see test cases.
 public class ArraysAreEqual {
     /**
@@ -14,16 +16,25 @@ public class ArraysAreEqual {
      * @param b the second array.
      * @return true if the values of a are equal to the values of b.
      */
-    public boolean equal(int[] a, int[] b){
+    public boolean equal(int[] a, int[] b){        
      
-     for(int i=0; i<a.length; i++){
-        for (int j=0; i<b.length; j++){
-            if(i==j){
-                a.equals(b);
-            }
-        }
-     }
+        if(Arrays.equals(a,b)){
+            return true;
 
-        return false;
+        }else {
+            return false;
+        }
+    
+        }
+       
     }
-}
+
+
+        
+        
+    
+
+        
+
+
+
