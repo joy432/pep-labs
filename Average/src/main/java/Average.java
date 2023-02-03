@@ -26,6 +26,6 @@ public class Average {
            sum = sum + nums[i];
            
         }
-        return sum/nums.length ;
+        return (double)sum/nums.length ;
     }
 }
