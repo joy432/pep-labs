@@ -12,7 +12,12 @@ public class IndexOf {
      */
     public int getIndex(int[] arr, int n){
         
-        for (int i=0; i<arr.length; i++);
+        for(int i =0; i<arr.length;i++){
+         
+          if (arr[i]==1){
+            arr[1] = n;
+          }
+        }
         return -1;
     }
 }
