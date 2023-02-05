@@ -570,10 +570,11 @@
     :count_tests: 4
     :count_tests_passed: 2
     :tests:
-      containsTest1: 0
-      containTest2: 1
-      containTest3: 0
-      containTest4: 1
+      containsTest1: 1
+      containTest2: 0
+      containTest3: 1
+      containTest4: 0
+      DoesNotContainTest: 0
   ArraysAreEqual:
     :Week: 4
     :Order: 15
