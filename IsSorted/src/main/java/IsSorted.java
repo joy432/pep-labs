@@ -9,17 +9,24 @@ public class IsSorted {
      * @return true if arr is sorted (all the numbers are in order). false if arr is not sorted.
      */
     public boolean checkSort(int[] arr){
-        boolean sort = true;
-        for(int i=0; i<arr.length; i++){
+          
+      boolean isSorted = true;
+        int i=0;
+        while(i<arr.length){
+
+        if(isSorted){
+          Arrays.sort(arr);
+          return true;
+        }else {
+          return false;
+        }
+      }
             
-            if(sort){
-              Arrays.sort(arr);
-            }else{
-              sort = false;
-            }
+          return false;
+        }
+        
+      }    
 
-        }        
 
-        return false;
-    }
-}
+        
+
