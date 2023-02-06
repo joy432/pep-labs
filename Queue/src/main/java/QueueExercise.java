@@ -4,7 +4,8 @@
 
 
   import java.util.Deque;
-  import java.util.ArrayDeque; 
+import java.util.Queue;
+import java.util.ArrayDeque; 
 
 
 
@@ -42,7 +43,7 @@ public class QueueExercise {
      * @param queue a Queue<String> object.
      * @return the length of queue.
      */
-    public int getSize(Deque<String> queue){
+    public int getSize(Queue<String> queue){
 
         return queue.size();
 
