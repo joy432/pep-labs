@@ -18,12 +18,13 @@ public class IndexOf {
        while(i<item){       
          
         } if(arr[i] ==n){          
-          return -1;
+          return i;
 
         }else if(arr[i]!=n){       
-          return -1;
-
-        } return -1;
+          return i;
+        } 
+        
+        return -1;
     }
    
 }
