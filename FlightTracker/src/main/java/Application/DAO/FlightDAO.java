@@ -147,9 +147,8 @@ public class FlightDAO {
      *
      * @param id a flight ID.
      * @param flight a flight object.
-     * @return 
      */
-    public Flight updateFlight(int id, Flight flight){
+    public void updateFlight(int id, Flight flight){
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
@@ -157,8 +156,9 @@ public class FlightDAO {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             //write PreparedStatement setString and setInt methods here.
-            preparedStatement.setInt();
-            preparedStatement.setString();
+            preparedStatement.setString(1, flight.getDeparture_city());
+            preparedStatement.setString(2, flight.getArrival_city());
+            preparedStatement.setInt(3,flight.getFlight_id());
 
 
 
