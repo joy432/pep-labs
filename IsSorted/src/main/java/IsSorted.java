@@ -8,19 +8,16 @@ public class IsSorted {
      * @param arr an int array
      * @return true if arr is sorted (all the numbers are in order). false if arr is not sorted.
      */
-    public boolean checkSort(int[] arr){
+    public boolean isSorted(int [] arr){
+      
+       for(int i =0; i<arr.length -1; i++ ){
           
-      boolean isSorted = true;
-        int i=0;
-        while(i<arr.length){
-
-        if(isSorted){
-          Arrays.sort(arr);
-          return true;
+        if ((arr[i-1]) < (arr[i+1])){
+           return true;
         }else {
           return false;
         }
-      }
+       }
             
           return false;
         }
