@@ -9,6 +9,15 @@ public class ReturnLongestString {
      */
     public String longest(String[] arr){
         
-        return null;
+       for (int i = 0; i<arr.length; i++){
+
+        if(arr [i].length()> arr[i +1].length()){
+           return 
+        }
+
+        }return str.length();
+       }       
+
+        
     }
-}
+
