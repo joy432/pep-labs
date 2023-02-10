@@ -148,7 +148,7 @@ public class FlightDAO {
      * @param id a flight ID.
      * @param flight a flight object.
      */
-    public Flight updateFlight(int id, Flight flight){
+    public void updateFlight(int id, Flight flight){
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
@@ -160,14 +160,14 @@ public class FlightDAO {
             preparedStatement.setString(2, flight.getArrival_city());
             preparedStatement.setInt(3, id);
             preparedStatement.executeUpdate();
-            preparedStatement.getResultSet()
+          
 
-            return flight;
+           
 
         }catch(SQLException e){ 
             System.out.println(e.getMessage());
         }
-         return null;
+        
          
     }
 
