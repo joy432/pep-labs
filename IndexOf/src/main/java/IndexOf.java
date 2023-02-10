@@ -15,15 +15,15 @@ public class IndexOf {
        int item = arr.length;
        int i =0;
 
-       while(i<item){       
-         
-        } if(arr[i] ==n){          
+       while(i<item){        
+
+        if(arr[i] ==n){   
+          
           return i;
 
-        }else if(arr[i]!=n){       
-          return i;
-        } 
-        
+        }
+          i++;
+      }
         return -1;
     }
    
