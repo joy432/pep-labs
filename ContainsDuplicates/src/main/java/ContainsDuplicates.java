@@ -8,11 +8,15 @@ public class ContainsDuplicates {
      * @param nums an array of ints.
      * @return true if nums contains any duplicate values, false if it does not.
      */
-    public boolean containsDuplicate(int[] nums){
-        
-        
-
-
+    public boolean containsDuplicate(int[] nums){             
+     Set<Integer> uniques = new HashSet<>();
+     for(int num : nums){
+        if (uniques.contains(num)){            
+            return true;        
+        }
+        uniques.add(num);
+        }        
         return false;
-    }
+     }       
 }
+
