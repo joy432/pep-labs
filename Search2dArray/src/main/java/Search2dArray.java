@@ -11,10 +11,12 @@ public class Search2dArray {
      */
     public boolean search(int[][] nums, int target){
 
-        for ( int [] arr: nums){
-            for (int arrs: arr){
+        for ( int i=0; i<nums.length; i++){
+            for (int j=0; j<nums.length; j++){
 
-                if()
+                if(nums [i][j]== target){
+                    return true;
+                }
             }
 
             
