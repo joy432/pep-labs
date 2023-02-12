@@ -736,6 +736,8 @@
       getFlightsFromCityToCityTest1: 1
       updateFlightTest1: 1
       updateFlightTestNonExistent: 1
+      combineArraysTest1: 0
+      combineArraysTest2: 0
   ForeignKey:
     :Week: 6
     :Order: 1
