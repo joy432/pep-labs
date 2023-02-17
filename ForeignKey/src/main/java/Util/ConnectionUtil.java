@@ -15,21 +15,24 @@ public class ConnectionUtil {
     private static String username = "sa";
     private static String password = "sa";
 
-    private static Connection connection = null;
+    private static Connection connection;
 
     /**
      * @return active connection to the database
      */
     public static Connection getConnection(){
-        if(connection == null){
+        
             try {
                 connection = DriverManager.getConnection(url, username, password);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-        }
+           
+    }
+    return connection= DriverManager.getConnection("jdbc:h2:./h2/db", "sa", "sa");
+}
 
-        return connection;
     }
 
-}
+
+
