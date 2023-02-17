@@ -16,6 +16,6 @@ public class RemoveAllCharacter {
         
         
         
-        return str.replaceAll( "ch" , "");
+        return str.replaceAll(ch, "");
     }
 }
