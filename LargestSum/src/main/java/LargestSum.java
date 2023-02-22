@@ -11,12 +11,16 @@ public class LargestSum {
      * @return the largest possible sum of separate numbers from nums.
      */
     public int bigSum(List<Integer> nums){
-        nums = new ArrayList<>();
-        int i =0;
-        for(int a : nums){
-          if(a ) 
-          
+      int max =0;
+      int secondMax = 0;
+
+      for(int value: nums){
+        secondMax = max;
+        max = value;
+          if(value > secondMax && value<=max){
+        secondMax = value;     
+          }
         }
-        return 0;
+        return max+secondMax;
     }
 }
